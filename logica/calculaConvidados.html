@@ -1,0 +1,20 @@
+<meta charset="UTF-8">
+<h3>Calculo de Convidados</h3>
+<script>
+    //declarando as funções
+    function pulaLinha() {
+        document.write("<br> <br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var convidados = parseInt(prompt("Numero de convidados: "));
+    var vips = parseInt(prompt("Numero de convidados VIP´s: "));
+
+    var total = convidados + vips;
+
+    mostra("O total de convidados é: " + total);
+</script>
