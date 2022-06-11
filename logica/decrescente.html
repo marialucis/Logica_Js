@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+
+    }
+
+    var limite = parseInt(prompt("Digite um numero de 0 a 20: "));
+    var contador = 20;
+
+    while (contador >= limite) {
+        mostra(contador);
+        contador = contador - 1;
+
+    }
+    mostra("FIM");
+</script>

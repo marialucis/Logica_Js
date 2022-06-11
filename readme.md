@@ -15,3 +15,8 @@ A primeira instrução que aprendemos em JavaScript foi a alert. A funcionalidad
 <script>
 
 </script>
+
+
+O document.querySelector recebe um parâmetro o nome da tag que desejamos buscar do mundo HTML. Ele é mais poderoso do que você imagina e aceita receber outros tipos de parâmetros, mas para nosso treinamento, entender que se passarmos o nome de uma tag HTML ele nos devolverá a tag no mundo JavaScript é suficiente.
+
+.lrngth = verifica o tamanho do array
